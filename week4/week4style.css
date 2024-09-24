@@ -1,0 +1,75 @@
+body{
+    /*font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    by default, 1em or 100% for font size usually correspondes to 16px
+    line-height: 1.25*/
+    font: normal 1em/1.25 Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h1{
+    color: red;
+    font-size: 2.5em;
+}
+h2{
+    font-weight: normal;
+}
+
+main h2{
+    font-style: italic;
+}
+
+#site-name{
+    letter-spacing: 2px;
+}
+#header{
+    background-color: grey;
+}
+a:link{
+    color: red;
+    text-decoration: none;
+    /*no bottom line under the text*/
+    /*all elements which are links*/
+}
+a:visited{
+    color: green;
+    /*link have been clicked before*/
+}
+
+a:hover{
+    color: black;
+    /*only avaliable for the nearest css*/
+}
+a:active{
+    color: darkmagenta;
+} /*elements which have the mouse down but before mouse up*/
+.menu{
+    padding: 0;
+    list-style: none;
+}
+.menu li{
+    display: inline-block;
+    margin-right: 2em;
+}
+.menu li:last-child{
+    margin-right: 2em;
+    /*in this case, it will be contact*/
+}
+a.button,
+a.button:visited,
+#sidebar a.button:visited{
+    background-color: black;
+    color: red;
+    padding: 0.5em 0.8em;
+    border-radius: 0.5em;
+    display: inline-block;
+}
+
+#sidebar{
+    font-size: 0.8em;
+}
+
+.read-more{
+    font-size: 14px;
+}
+
